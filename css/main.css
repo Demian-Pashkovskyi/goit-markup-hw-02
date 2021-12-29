@@ -11,13 +11,14 @@
   --title-text-color: rgba(117, 117, 117, 1);
   --primery-fon-color: #ffffff;
   --title-fon-color: #f5f4fa;
+  --accent-color: #2196f3;
 }
 .font-family {
-  background-color: #ffffff;
-  color: rgba(117, 117, 117, 1);
+  background-color: var(--primery-fon-color);
+  color: var(--title-text-color);
 }
 .logo {
-  color: #212121;
+  color: var(--primery-text-color);
 }
 
 ul {
@@ -25,18 +26,29 @@ ul {
 }
 /* Site-nave */
 .site-nav {
-  color: #212121;
+  color: var(--primery-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contacts {
-  color: #212121;
+  color: var(--primery-text-color);
 }
 .contacts .link:focus,
 .contacts .link:hover {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+/*section-title*/
+
+.section-title {
+  color: var(--primery-text-color);
+}
+
+/*feature-list*/
+.feature-list .title {
+  color: var(--primery-text-color);
 }
