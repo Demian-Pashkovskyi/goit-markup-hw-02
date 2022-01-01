@@ -21,10 +21,10 @@
   --color-button: #f5f4fa;
 }
 
-.text-style {
-  font-family: Roboto;
+body {
   background-color: var(--primery-fon-color);
   color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 .logo {
