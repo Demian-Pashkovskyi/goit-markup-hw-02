@@ -20,8 +20,11 @@
   --accent-color: #2196f3;
 }
 
+body {
+  font-family: 'Roboto';
+}
+
 .text-style {
-  font-family: Roboto;
   background-color: var(--primery-fon-color);
   color: var(--title-text-color);
 }
@@ -74,9 +77,14 @@ ul {
 }
 
 /*button*/
-.button {
+button {
   color: var(--text-color-footer);
   background-color: var(--accent-color);
+}
+button:hover,
+button:focus {
+  color: var(--accent-color);
+  background-color: var(--text-color-footer);
 }
 
 /*section-title*/

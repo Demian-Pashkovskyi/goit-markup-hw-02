@@ -77,7 +77,7 @@ ul {
 /*button*/
 .portfolio-button {
   color: var(--color-button);
-  background-color: var(--color-button);
+  background-color: var(--primery-text-color);
 }
 button:focus {
   color: var(--accent-color);
