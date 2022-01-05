@@ -9,7 +9,7 @@
 :root {
   --primery-text-color: #212121;
   --title-text-color: rgba(117, 117, 117, 1);
-  --second-text-color: rgba(255, 255, 255, 0, 6);
+  --second-text-color: rgba(255, 255, 255, 0.6);
   --text-color-footer: #ffffff;
   --primery-fon-color: #ffffff;
   --title-fon-color: #2f303a;
@@ -129,6 +129,7 @@ button {
 .button-name {
   color: var(--primery-text-color);
   background-color: var(--fon-button-color);
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -256,7 +257,7 @@ button {
   text-decoration: none;
 }
 .order-title {
-  color: var(--text-color-footer);
+  color: var(--primery-fon-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
